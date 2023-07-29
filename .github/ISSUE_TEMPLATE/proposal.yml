@@ -1,0 +1,11 @@
+name: "Оставить фидбэк"
+description: "Любые идеи и пожелания."
+labels: ["Proposal"]
+body:
+  - type: textarea
+    id: description
+    validations:
+      required: true
+    attributes:
+      label: "Описание"
+      description: "Опишите важе предложение."

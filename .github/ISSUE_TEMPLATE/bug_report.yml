@@ -1,0 +1,29 @@
+name: "Баг"
+description: "Если что-то работает не так, как ожидается."
+labels: ["Bug"]
+body:
+  - type: textarea
+    id: description
+    validations:
+      required: true
+    attributes:
+      label: "Описание"
+      description: "Опишите вашу идею в деталях."
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: "Этап воспроизведения"
+      description: "Если возможно, напишите шаги для воспроизведения бага."
+      placeholder: |
+        1. Открыть интерфейс консоли
+        2. Нажать на кнопку "старт"
+        3. Получить ошибку
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Скриншоты"
+      description: |
+        Если возможно, добавьте скриншоты, чтобы более явно показать проблему.
+        **Подсказка**: Вы можете добавить изображение, нажав на зону ниже и перетащить картинку туда.
